@@ -1,7 +1,7 @@
 // Simulate config options from your production environment by
 // customising the .env file in your project's root folder.
 // ================= UBERSPACE CONFIGURATTION ==================
-// for uberspace the .env file has to copy in 
+// for uberspace the .env file has to be copy in
 // $HOME/run/{keyston-run-folder}
 // =============================================================
 
@@ -32,11 +32,6 @@ keystone.init({
 	'mongo': process.env.MONGO_DB,
 	'port': '3011'
 });
-
-//'cloudinary config': process.env.CLOUDINARY_URL,
-// 'cookie secret': process.env.COOKIE_SECRET,
-//'cloudinary config': 'cloudinary://396956165919351:hlIMDw16h7IiEWkrxL3a8L4GI8Y@dkh0h8doz',
-//'cookie secret': '12b183239964caf86b620312ded9cc165f3cad2101898534fe249aa7bf39cf82700bd9b6f34489f3cab3ac5aa2f4bd8cf1ac67ca6834fdb8b11f25caf8071b98',
 
 // Load your project's Models
 keystone.import('models');
