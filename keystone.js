@@ -2,7 +2,7 @@
 // customising the .env file in your project's root folder.
 // ================= UBERSPACE CONFIGURATTION ==================
 // for uberspace the .env file has to be copy in
-// $HOME/run/{keyston-run-folder}
+// $HOME/run/{keystone-run-folder}
 // =============================================================
 
 require('dotenv').config()
